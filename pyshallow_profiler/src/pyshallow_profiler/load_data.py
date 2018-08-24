@@ -5,7 +5,7 @@ import pandas as pd
 ## convert time range to days
 from datetime import timedelta, date
 
-__CSV_PATH__ = os.path.abspath(os.path.join(os.path.dirname(__file__),".."))
+__CSV_PATH__ = os.path.abspath(os.path.join(os.path.dirname(__file__),"..","..","..","data/"))
 
 valid_platforms = ['PC01A', 'PC01B', 'PC03A', 'SC01A', 'SC01B', 'SC03A']
 
